@@ -1,0 +1,12 @@
+/*label object*/
+var  objs = payload.DeepDetect.objects
+var len = objs.length
+label = "ไม่พบคนหรือโทรศัพท์"
+for(var i = 0; i < len ; i++){
+     if(objs[i].name =="person"){
+      label = "พบคนในภาพ"
+      
+     }else if(objs[i].name = "cell phone"){
+      label = "พบโทรศัพท์ในภาพ"
+     }
+}
