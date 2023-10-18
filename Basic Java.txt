@@ -1,0 +1,41 @@
+/*ทดลอง JS1*/
+var a
+var b =10
+var c = 5
+a = 15
+print("แสดงค่า a =" +a)
+
+/*If Else*/
+var a
+var b =10
+var c = 5
+a = 19
+if(a>15){
+     a = a +5
+     print(a)    
+}else{print(a)
+}
+
+/*If Elseif*/
+var a
+var b =10
+var c = 5
+a = 11
+if(a>15){
+     a = a +5
+     print(a)    
+}else if(a > 10){
+     a = a- 5
+     print(a)
+}else{
+     print(a)
+}
+
+/*For loop*/
+var a
+var b =10
+var c = 5
+a = 11
+for (var  i = 0 ; i < 10 ; i++){
+     print(i+"\n")
+}
